@@ -4,9 +4,9 @@
   "description": "A small set of magnetic buttons with some fun hover animations.",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html --open",
+    "start": "parcel src/index5.html --open",
     "clean": "rm -rf dist/*",
-    "build:parcel": "parcel build src/index.html --no-content-hash --no-minify --no-source-maps --public-url ./",
+    "build:parcel": "parcel build src/index5.html",
     "build": "npm run clean && npm run build:parcel"
   },
   "repository": {
